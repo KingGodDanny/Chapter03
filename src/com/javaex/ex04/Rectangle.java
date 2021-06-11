@@ -56,7 +56,7 @@ public class Rectangle {
 			return false;
 		}
 	}
-	
+
 	
 //	@Override
 //	public boolean equals(Object obj) {
@@ -68,7 +68,12 @@ public class Rectangle {
 //			return false;
 //		}
 //	}
-//	
+	
+	
+	@Override
+	public String toString() {
+		return "Rectangle [width=" + width + ", height=" + height + "]";
+	}
 	
 	
 	
